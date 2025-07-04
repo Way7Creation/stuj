@@ -1,0 +1,14 @@
+{
+  "client/src/main.css": {
+    "file": "assets/main-5a84068e.css",
+    "src": "client/src/main.css"
+  },
+  "client/src/main.js": {
+    "css": [
+      "assets/main-5a84068e.css"
+    ],
+    "file": "assets/main-be704a9b.js",
+    "isEntry": true,
+    "src": "client/src/main.js"
+  }
+}
