@@ -1,0 +1,116 @@
+{
+  "client/src/main.css": {
+    "file": "assets/main-779f81e8.css",
+    "src": "client/src/main.css"
+  },
+  "client/src/main.js": {
+    "css": [
+      "assets/main-779f81e8.css"
+    ],
+    "dynamicImports": [
+      "client/src/pages/Home.vue",
+      "client/src/pages/Catalog.vue",
+      "client/src/pages/Product.vue",
+      "client/src/pages/Quiz.vue",
+      "client/src/pages/AdminLogin.vue",
+      "client/src/pages/AdminPanel.vue",
+      "client/src/pages/ProductCreate.vue",
+      "client/src/pages/NotFound.vue"
+    ],
+    "file": "assets/main-8c208f58.js",
+    "isEntry": true,
+    "src": "client/src/main.js"
+  },
+  "client/src/pages/AdminLogin.vue": {
+    "file": "assets/AdminLogin-e7c9f5be.js",
+    "imports": [
+      "client/src/main.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "client/src/pages/AdminLogin.vue"
+  },
+  "client/src/pages/AdminPanel.css": {
+    "file": "assets/AdminPanel-0dbc7f1d.css",
+    "src": "client/src/pages/AdminPanel.css"
+  },
+  "client/src/pages/AdminPanel.vue": {
+    "css": [
+      "assets/AdminPanel-0dbc7f1d.css"
+    ],
+    "file": "assets/AdminPanel-93294127.js",
+    "imports": [
+      "client/src/main.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "client/src/pages/AdminPanel.vue"
+  },
+  "client/src/pages/Catalog.css": {
+    "file": "assets/Catalog-50c60aaf.css",
+    "src": "client/src/pages/Catalog.css"
+  },
+  "client/src/pages/Catalog.vue": {
+    "css": [
+      "assets/Catalog-50c60aaf.css"
+    ],
+    "file": "assets/Catalog-9c50b08b.js",
+    "imports": [
+      "client/src/main.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "client/src/pages/Catalog.vue"
+  },
+  "client/src/pages/Home.css": {
+    "file": "assets/Home-4467b770.css",
+    "src": "client/src/pages/Home.css"
+  },
+  "client/src/pages/Home.vue": {
+    "css": [
+      "assets/Home-4467b770.css"
+    ],
+    "file": "assets/Home-4da4dc81.js",
+    "imports": [
+      "client/src/main.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "client/src/pages/Home.vue"
+  },
+  "client/src/pages/NotFound.vue": {
+    "file": "assets/NotFound-ee59ab38.js",
+    "imports": [
+      "client/src/main.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "client/src/pages/NotFound.vue"
+  },
+  "client/src/pages/Product.vue": {
+    "file": "assets/Product-6a825da5.js",
+    "imports": [
+      "client/src/main.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "client/src/pages/Product.vue"
+  },
+  "client/src/pages/ProductCreate.css": {
+    "file": "assets/ProductCreate-a1520046.css",
+    "src": "client/src/pages/ProductCreate.css"
+  },
+  "client/src/pages/ProductCreate.vue": {
+    "css": [
+      "assets/ProductCreate-a1520046.css"
+    ],
+    "file": "assets/ProductCreate-8d28dbc4.js",
+    "imports": [
+      "client/src/main.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "client/src/pages/ProductCreate.vue"
+  },
+  "client/src/pages/Quiz.vue": {
+    "file": "assets/Quiz-076479c3.js",
+    "imports": [
+      "client/src/main.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "client/src/pages/Quiz.vue"
+  }
+}
