@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Кастомные стили для проекта Стужа */
+@layer base {
+    body {
+        @apply bg-stuzha-bg text-stuzha-text;
+    }
+}
+
+@layer components {
+    /* Стили для эффекта матрёшки */
+    .matryoshka-container {
+        @apply relative w-full h-96 overflow-hidden rounded-lg;
+    }
+    
+    .matryoshka-container .layer {
+        @apply absolute inset-0 w-full h-full object-cover transition-transform duration-500;
+    }
+    
+    .matryoshka-container .inside-content {
+        @apply absolute bottom-0 left-0 right-0 bg-black/80 p-4 transform translate-y-full transition-transform duration-500;
+    }
+    
+    .matryoshka-container.active .inside-content {
+        @apply translate-y-0;
+    }
+}
+
+@layer utilities {
+    /* Утилиты для анимаций */
+    .animation-paused {
+        animation-play-state: paused;
+    }
+    
+    .animation-running {
+        animation-play-state: running;
+    }
+}
